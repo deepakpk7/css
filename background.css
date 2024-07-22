@@ -1,0 +1,35 @@
+body{
+    background-image: url(tree.jpg);
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-color: rgba(135, 190, 147, 0.263);
+   }
+   
+   
+   p{
+       border: 2px solid red;
+       border-radius: 1000px;
+       text-align: justify;
+   }
+   
+   h1{
+       border: 2px solid red;
+       border-color: red yellow blue violet;
+       border-radius: 1000px;
+       padding: 20px;
+       margin: 30px;
+       height: 50px;
+       text-align: center;
+       width: 400px;
+       text-decoration: underline;
+       
+   }
+   h1 span{
+       vertical-align: sub;
+   }
+   
+   a{
+       text-decoration: none  ;
+   }
+   
