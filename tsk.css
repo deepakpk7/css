@@ -1,0 +1,67 @@
+.main{
+   background-color: white;
+   width: 850px;
+   height: 600px;
+   position: relative;
+}
+.b1{
+   background-color: whitesmoke;
+   width: 200px;
+   height: 490px;
+   left: 10px;
+   position: absolute;
+}
+.b2{
+   background-color: whitesmoke;
+   width: 200px;
+   height: 490px;
+   left: 220px;
+   position: absolute;
+}
+.b3{
+   background-color: whitesmoke;
+   width: 200px;
+   height: 490px;
+   left: 430px;
+   position: absolute;
+}
+.b4{
+   background-color: whitesmoke;
+   width: 200px;
+   height: 490px;
+   right: 10px;
+   position: absolute;
+}
+.pic{
+   width: 200px;
+   height: 150px;
+}
+.p{
+   padding-bottom: 200px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.head{
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+.n{
+   padding-bottom: 20px;
+   padding-left: 5px;
+}
+.n1{
+   padding-bottom: 20px;
+   padding-top: 196px;
+   padding-left: 5px;
+}
+.n2{
+   padding-bottom: 20px;
+   padding-top: 229px;
+   padding-left: 5px;
+}
+.n3{
+   padding-top: 249px;
+   padding-bottom: 20px;
+   padding-left: 5px;
+}
