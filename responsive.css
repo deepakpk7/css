@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+.navbar{
+    display: flex;
+    background-color: #ebe7e7;
+}
+.navbar a {
+    color: rgb(17, 16, 16);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(236, 159, 135);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fakeimg{
+    background-image: url(/ajw.jpg);
+    height: auto;
+    width: auto;
+    margin-left: 30px;
+}
+.right{
+    flex: 70%;
+    background-color: rgb(201, 201, 201);
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+}
+.side{
+    margin-right: 20px;
+}
