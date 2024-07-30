@@ -1,0 +1,80 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+    padding: 10px;
+}
+.item{
+    background-color: rgba(81, 199, 34, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.inline_grid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000203;
+    padding: 10px;
+}
+.colum_gap{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #21f333;
+    padding: 10px;
+}
+.raw_gap{
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #b5e40e;
+    padding: 10px;
+}
+.gap{
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #13dba9;
+    padding: 40px;
+}
+.grid_line{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #000000;
+    padding: 10px;
+}
+.grid_line > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 70px;
+  }
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid_line2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid_line2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item22 {
+    grid-column: 2 / span 3;
+  }
+  
