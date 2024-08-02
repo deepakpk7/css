@@ -35,6 +35,7 @@ body{
     flex: 70%;
     background-color: rgb(201, 201, 201);
     margin-left: 20px;
+    margin-top: 20px;
 }
 p{
     margin-left: 20px;
@@ -42,3 +43,8 @@ p{
 .side{
     margin-right: 20px;
 }
+@media screen and (max-width: 500px) {
+    .main, .navbar,.right,.side,.fakeimg {   
+      flex-direction: column;
+    }
+  }
